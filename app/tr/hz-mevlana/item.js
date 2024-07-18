@@ -1,0 +1,124 @@
+export const items = [
+  {
+    id: 1,
+    text: "Hazret-i Mevlana’nın Hayatı",
+    page: `Mevlana’nın asıl adı Muhammed Celaleddin’dir. Mevlana ve Rumi de, kendisine sonradan verilen isimlerdendir. Efendimiz manasına gelen Mevlana ismi O’na daha pek genç iken Konya’da ders okutmaya başladığı tarihlerde verilir. Bu ismi, Şemseddin-i Tebrizi ve Sultan Veled’den itibaren Mevlana’yı sevenler kullanmış, adeta adı yerine sembol olmuştur. Rumi, Anadolu demektir. Mevlana’nın, Rumi diye tanınması, geçmiş yüzyıllarda Diyar-ı Rum denilen Anadolu ülkesinin vilayeti olan Konya’da uzun müddet oturması, ömrünün büyük bir kısmının orada geçmesi ve nihayet türbesinin orada olmasındandır.`,
+  },
+  {
+    id: 2,
+    text: "Doğum Yeri ve Yılı",
+    page: `Mevlana’nın doğum yeri, bugünkü Afganistan’da bulunan, eski büyük Türk Kültür merkezi Belh’tir. Mevlana’nın doğum tarihi ise 30 Eylül 1207 (6 Rebiu’l-evvel, 604)’dir.`,
+  },
+  {
+    id: 3,
+    text: "Nesebi (Soyu)",
+    page: `Asil bir aileye mensup olan Mevlana’nın annesi, Belh Emiri Rükneddin’in kızı Mümine Hatun; babaannesi, Harezmşahlar (1157 Doğu Türk Hakanlığı) hanedanından Türk prensesi, Melike-i Cihan Emetullah Sultan’dır. Babası, Sultanü’l-Ulema (Alimlerin Sultani) unvanı ile tanınmış, Muhammed Bahaeddin Veled; büyükbabası, Ahmet Hatibi oğlu Hüseyin Hatibi’dir. Eflaki ’ye göre Hüseyin Hatibi, ilmi deniz gibi engin ve geniş olan bir alim idi. Din ilminin üstadı ve alimlerin büyüklerinden sayılan, güzel şiirler söyleyen Nişaburlu Raziyüddin gibi bir zat da talebelerindendi. Kaynaklar ve Mevlana’nın sevgi yolunda gidenler eserlerinde Sultanü’l-Ulema Bahaeddin Veled’in nesebinin, anne cihetiyle on dördüncü göbekte Hazret-i Muhammed’in torunu Hazret-i Hüseyin’e, baba cihetiyle de onuncu göbekte Hazret-i Muhammed’in seçilmiş dört dostundan ilki Hazret-i Ebu Bekir Sıddık’a ulaştığını kaydediyorlar.`,
+  },
+  {
+    id: 4,
+    text: "Babası Bahaeddin Veled Hazretleri’nin Şahsiyeti",
+    page: `Bahaeddin Veled, 1150’de Belh’de doğmuş, babası ve dedesinin manevi ilimleriyle yetişmiş; ayrıca Necmeddin-i Kübra (? – 1221)’dan feyz almıştır. Bahaeddin Veled bütün ilimlerde esi olmayan, olgun mana sultanı idi. İlahi hakikatler ve Rabbani ilimlerden meydana gelen uçsuz bucaksız bir deniz gibi olan Bahaeddin Veled, Horasan Diyarının, en güç fetvaları halletmede, tek üstadı idi ve vakıftan hiçbir sey almazdı; devlet hazinesinden kendisine tahsis edilen maaşla geçinirdi. Kaynakların ittifakla rivayetine göre, devrinin alimleri ve ulu müftüleri, Hazreti Muhammed’in manevi işaretiyle, Bahaeddin Veled’e Sultanü’l- Ulema unvanını vermişlerdir. Bundan sonra da Bahaeddin Veled bu unvanla yad edilmiştir. Bu unvanın verilişi Türklerin adetiyle de izah edilebilir. Türkler, yüksek kabiliyet ve fazilet sahiplerinin tanınmadan kaybolup gitmesine, unutulmasına razı olmazlardı. Onları halkın gözünde belirtmek, halkı ilim ve irfana yöneltmek için o gibi büyüklere layık oldukları birer unvan verilirdi. Bu anane, Türklerin ilme, fazilete karşı saygı duygularını gösteren parlak bir delildir. Hatta anane gereğince imzaların üstünde bu unvanları kullanmaya mecburdurlar onlar kazandıkları bu unvanları kendileri için manevi bir rütbe yayarlar, nefisleri için bundan asla gurur duymazlardı. Alimler gibi giyinen Bahaeddin Veled, adeti üzere, sabah namazından sonra, halka ders okutur; öğle namazından sonra dostlarına sohbette bulunur; pazartesi günleri de bütün halka va’z ederdi. Va’zı esnasında umumiyetle, Yunan filozoflarının fikirlerini benimseyenlerin görüşlerini reddeder ve “Semavi (Allah’tan olan ilahi) kitapları arkalarına atıp, filozofların silik sözlerini önlerine alıp itibar edenlerin nasıl kurtulma ümidi olur” derdi. Bu arada Yunan felsefesini okutan ve savunan Fahreddin-i Razi’ye ve ona uyan Harezmşah’ın aleyhinde bulunur; onları bidat ehli (dinde, peygamber zamanında olmayan, yeniden beğenilmeyen şeyleri çıkaranlar) olarak görür ve şöyle derdi: “Muhammed Mustafa’nın yürüyüşünden dahi iyi yürüyüş, yolundan daha doğru bir yol görmedim.”`,
+  },
+  {
+    id: 5,
+    text: "Hazret-i Mevlana’nın Babası ile Belh’ten Çıkışları ve Konya’ya Gelişleri",
+    page: `Esasen tasavvuf ehline iyi gözle bakmayan ve bunların Harezmşah katında saygı görmelerini çekemeyen Fahreddin-i Razi, Bahaeddin Veled’in açıkça kendi aleyhine tavır almasına da çok içerlediğinden onu Harezmşah’a gammazladı. Bahaeddin Veled’in de gönlü Harezmşah’tan incindi ve Belh’i terk etti. Ancak araştırıcılar, Bahaeddin Veled’in Belh’ten göç etmesine sebep olarak, Moğol istilasını gösterirler. Sultanü’l-Ulema, aile fertleri ve dostlarıyla Belh şehrini 1212-1213 tarihlerinde terk ettikten sonra Hacca gitmeye niyet etmişti. Nisabur’a uğradı. Göç kervanıyla Bağdat’a yaklaştığında, kendisine hangi kavimden olduklarını ve nereden gelip nereye gittiklerini soran muhafızlara Sultanü’l-Ulema Şeyh Bahaeddin Veled su manidar cevabi verir: “Allah’tan geldik, Allah’a gidiyoruz. Allah’tan başka kimsede kuvvet ve kudret yoktur.” Bu söz Şeyh Şehabettin-i Sühreverdi (1145-1235)’ye ulaştığında: “Bu sözü Belhli Bahaeddin Veled”den başkası söyleyemez” dedi, samimiyetle ve muhabbetle karşılamaya koştu. Birbirleriyle karşılaşınca Şeyh Sühreverdi, katırından inip nezaketle Bahaeddin Veled’in dizini öptü, gönülden hürmetlerini sundu. Bahaeddin Veled, Bağdat’ta üç günden fazla kalmadı ve Kufe yolundan Kabe’ye hareket etti. Hac farizasını yerine getirdikten sonra, dönüşte Sam’a uğradı. Bahaeddin Veled, yanında biricik oğlu Mevlana olduğu halde, göç kervanıyla Şam’dan Malatya’ya, oradan Erzincan’a, oradan Karaman’a uğradılar. Karaman’da bir müddet kaldıktan sonra, nihayet Konya’yı seçip oraya yerleştiler.`,
+  },
+  {
+    id: 6,
+    text: "Göç Yolunda Hazret-i Mevlana’ya Teveccühte Bulunan Mutasavvıflar",
+    page: `Şeyh Attar Hazretleri: Belh’i terk ettikten sonra Bağdat’a doğru yola çıkan Bahaeddin Veled, Nişabur’a vardığında ziyaretine gelen Şeyh Feridüddin-i Attar (1119-1221;1230) ile görüşüp sohbet eder. Sohbet esnasında Şeyh Attar, Mevlana’nın nasiyesindeki (alnındaki) kemali görür ve ona Esrar-name adli eserini hediye eder ve babasına da; “Çok geçmeyecek ki, bu senin oğlun alemin yüreği yanıklarının yüreklerine ateşler salacaktır.” der.`,
+    page2: `Şeyh-i Ekber Hazretleri: Sultanü’l-Ulema, Hac farizasını yerine getirdikten sonra dönüşte Şam’a uğradı. Orada Şeyh-i Ekber Muhyiddin Ibnü’l-Arabi (1165-1240) ile görüştü. Şeyh-i Ekber, Sultanü’l-Ulema’nin arkasında yürüyen Mevlana’ya bakarak: “Sübhanallah! Bir okyanus bir denizin arkasında gidiyor” demiştir.`,
+  },
+  {
+    id: 7,
+    text: "Hazret-i Mevlana’nın Evlenmesi",
+    page: `Karaman’da bulundukları 1225 tarihinde Mevlâna, babasının buyruğu ile itibarlı, asil bir zat olan Semerkantlı Hoca Şerafeddin Lala’nın, huyu güzel, yüzü güzel kızı Gevher Banu ile evlendi. Mevlâna dünya evine girdiğinde on sekiz yaşındadır. Hazret-i Mevlana’nın, Konya’ya Yerleşmeleriyle İlgili Yorumu: “Hak Teâlâ’nın Anadolu halkı hakkında büyük inayeti vardır ve Sıddık-i Ekber Hazretlerinin duasıyla da bu halk bütün ümmetin en merhamete layık olanıdır. En iyi ülke Anadolu ülkesidir; fakat bu ülkenin insanları mülk sahibi Allah’ın aşk aleminden ve deruni zevkten çok habersizlerdir. Sebeplerin hakiki yaratıcısı Allah, hoş bir lütufta bulundu, sebepsizlik aleminden bir sebep yaratarak bizi Horasan ülkesinden Anadolu vilayetine çekip getirdi. Haleflerimize de bu temiz toprakta konacak yer verdi ki, ledünni (Allah bilgisine ve sırlarına ait) iksirimizden (altın yapma hassamızdan) onların bakır gibi vücutlarına saçalım da onlar tamamıyla kimya (bakışıyla, baktığı kimseyi manen yücelten olgun insan); irfan aleminin mahremi ve dünya ariflerinin hemdemi (canciğer arkadaşı) olsunlar.”`,
+  },
+  {
+    id: 8,
+    text: "Hazret-i Mevlana’yı Yetiştiren Mutasavvıflar",
+    page: `Sultanü’l-Ulema Şeyh Bahaeddin Veled Hazretleri : Önceki bahislerde şahsiyetini belirtmeye çalıştığımız Bahaeddîn Veled, Mevlânâ'nın ilk mürşididir. Yani Mevlânâ'ya Allah yolunu öğretip, tasavvuf usulünce hakikatleri ve sırları gösteren tarikat şeyhidir. Bütün İslam aleminde yüksek itibar ve şöhrete sahip olan Bahaeddîn Veled, Selçuklulular'ın Sultanı Alâeddîn Keykubat'tan yakın alaka ve sonsuz hürmet görür. Bahaeddîn Veled, 3 Mayıs 1228 tarihinde14 Selçukluların baş şehri Konya'yı şereflendirip yerleştikden kısa bir süre sonra, son derece samimi dindar olan Sultan Alâeddîn Keykubat (saltanat müddesi 1219-1236), sarayında Bahaeddîn Veled'in şerefine büyük bir toplantı tertip etti ve bütün ileri gelenleriyle birlikte onun manevi terbiyesi altına girdi. Sultaü'l-Ulemaya gönülden bağlı olan Sultan Alâeddîn onu hayranlıkla şöyle över; "Heybetinden gönlüm tir tir titriyor, yüzüne bakmaktan korkuyorum. Bu eri gördükçe, gerçekliğim, dinim artıyor. Bu alem, bendem korkup titrerken ben, bu adamdan korkuyorum, ya Rabbi, bu ne hal? İyice inandım ki o, cihanda nadir bulunan ve eşi benzeri olmayan bir Allah dostudur." Dünya sultanına hükmeden, eşsiz Allah dostu mana ve gönül sultanı Bahaeddîn Veled, 24 Şubat, 1231 tarihinde Cuma günü kuşluk vaktinde ebedi alemde göçtü. Geriye Muhammed Celaleddîn gibi bir hayırlı oğul ile Maarif gibi bir eser bıraktı. Sultânü'l-Ulema, sadece duygu ve düşüncelerini açıkladı şöhret peşinde koşmadı. Etrafındakilerini yetiştirdi ve onları daima aydınlattı.`,
+    page2: `Seyyid Burhaneddin Hazretleri : Bahaeddîn Veled'in irtihâlinde Mevlânâ yirmi dört yaşında idi. Babasının vasiyeti, dostlarının ve bütün halkın yalvarmaları ile babasının makamına geçti, oturdu. Mevlânâ, babasından sonra, Seyid Burhaneddin'i buluncaya kadar bir yıl mürşidsiz kaldı. 1232 tarihinde babasının değerli halifesi Seyyid Burhneddin-i Muhakkık-ı Tirmîzi, Konya'ya geldi. Mevlânâ onun manevi terbiyesi altına girdi. Seyyid Burhaneddin, mertebesi çok yüksek bir kamil mürşid idi. Maarif adlı eseri irfanının delilidir. Kendisine, daima kalblerde bulunan sırları bilmesinden dolayı, Seyyid Sırdan denirdi. Seyyid Burhaneddin, ta çocukluk yıllarında bir lala gibi omuzlarda taşıyıp dolaştırdığı Mevlânâ'ya dedi ki: "Bilginde eşin yok, seçkinsin. Ama baban hal (manevi makam) sahibiydi, sen de onu ara, kalden (sözden) geç. Onun sözlerini iki eline kavramışsın; fakat benim gibi onun haliyle de sarhoş ol. Böylece de ona tam mirasçı kesil; cihana ışık saçmada güneşe benze. Sen zahiren babanın mirasçısısın; ama özü ben almışım; bu dosta bak, bana uy."Mevlânâ babasının halifesinden bu sözleri duyunca samimiyetle onun terbiyesine teslim oldu. Mevlânâ candan, samimiyetle, Seyyid Burhaneddin'i babasının yerine koydu ve gerçek bir mürşid bilerek gönülden, tam dokuz yıl ona hizmet etti. Bu zaman zarfında, o kamil mürşidin kılavuzluğu ile mücahede (nefsi yenmek için gayret sarfederek) ve riyazetle o kamil arifin feyizli sohbet ve nefesleriyle pişti, olgunlaştı, baştan ayağa nur oldu; kendinden kurtuldu, mana sultanı oldu. Nitekim, Mesnevi'sindeki şu iki beyit, piştiğinin, kamil insan mertebesine ulaştığının ifadesidir; "Piş, ol da bozulmaktan kurtul... Yürü, Burhan-ı Muhakkık gibi nur ol. Kendinden kurtuldun mu, tamamiyle Burhan olursun. Kul olup yok oldun mu sultan kesilirsin."`,
+  },
+  {
+    id: 9,
+    text: "Hazret-i Mevlana’nın Konya Dışına Seyahati",
+    page: `Halep ve Şam'a Gidişi : Mevlânâ, yüksek ilimlerde daha çok derinleşmek için, Seyyid Burhaneddin'in izniyle Haleb'e gitti. Halaviyye Medresesi'nde, fıkıh, tefsir ve usul ilimlerinde üstün bir alim olan Adim oğlu Kemaleddin'den ders aldı. Mevlânâ, Halep'teki tahsilini bitirdikten sonra Şam'a geçti. Burada, ilmi incelemeler yapmak için dört yıl kaldı. Bu zaman zarfında Şam'daki alimlerle tanışıp, onlarla sohbet etti.`,
+  },
+  {
+    id: 10,
+    text: "Şam'da Şems-i Tebrîzi Hazretleri ile Bir Anlık Görüşme",
+    page: `Eflâki'ye göre Mevlânâ, Şam'da Şemseddîn-i Tebrîzi ile görüşmüştür; fakat bu görüşme kısa bir müddettir ve şöyle cereyan etmiştir. Şemseddîn-i Tebrîzi, bir gün halkın arasında, Mevlânâ'nın elini yakalayıp öper ve ona "Dünyanın sarrafı beni anla!" diye hitap eder ve kaybolur. İşte bu sohbet veya bir anlık görüşme tarihinden takriben sekiz sene sonra Şems, Konya'ya gelecek ve Mevlânâ ile içli dışlı sohbet edecektir.`,
+  },
+  {
+    id: 11,
+    text: "Hazret-i Mevlânâ Kamil Bir Mürşid",
+    page: `Yedi yıl süren Halep ve Şam seyahatinden sonra Konya'ya dönen Mevlânâ, Seyyid Burhaneddin'in arzusu üzerine birbiri arkasına, candan istekle ve samimiyetle, üç çile çıkardı. Yani üç defa kırkar gün (yüzyirmi gün) az yemek, az içmek, az uyumak ve vaktinin tamamını ibadetle geçirmek suretiyle nefsini arıttı. Üçüncü çilenin sonunda Seyyid Burhaneddin, Mevlânâ'yı kucaklayıp öptü; takdir ve tebrikle, "Bütün ilimlerde eşi benzeri olmayan bir insan, nebilerin ve velilerin parmakla gösterdiği bir kişi olmuşsun... Bismillah de yürü, insanların ruhunu taze bir hayat ve ölçülemiyecek bir rahmete boğ; bu suret aleminin ölülerini kendi mana ve aşkınla dirilt." Dedi ve onu irşad ile görevlendirdi. Seyyid Burhaneddin, daha sonra, Mevlânâ'dan izin alıp Kayseri'ye gitmiş ve orada ebedi aleme göçmüştür (1241-1242). Türbesi Kayseri'dedir. Mevlânâ Seyyid Burhaneddin'in Konya'dan ayrılışından sonra, irşad (Allah Yolunu gösterme) ve tedris (öğretim) makamına geçti. Babasının ve dedelerinin usullerine uyarak beş yıl bu vazifeyi başarı ile yaptı. Rivayete göre dini ilimleri tahsil eden dört yüz talebesi ve on binden çok müridi vardı.`,
+  },
+  {
+    id: 12,
+    text: "Hazret-i Mevlânâ ile Hazret-i Şems'in Buluşmaları",
+    page: `Mevlânâ ile Şems, bu iki kabiliyet, bu iki nur, bu iki ruh, nihayet buluştular, görüştüler. Bu tarihte Şems, altmış, Mevlânâ, otuz sekiz yaşında idi. Bu iki ilahi aşık, bir müddet yalnızca bir köşeye çekilerek kendilerini tamamiyle Hakk'a verdiler ve gönüllerine gelen ilahi ilhamlarla sohbetlere koyuldular. Sultan Veled der ki: "Ansızın Şems gelip ona ulaştı; ona maşukluk (sevilen, sevgili olmanın) hallerini anlattı, açıkladı. Böylece de sırrı yücelerden yüceye vardı. Şems, Mevlânâ'yı şaşılacak bir aleme çağırdı, öyle bir aleme ki, ne Türk gördü o alemi ne Arap."`,
+  },
+  {
+    id: 13,
+    text: "Hazret-i Mevlânâ ile Şems Hakkında",
+    page: `Mevlânâ, Şems ile Konya'da buluştuğu zaman tamamiyle kemale ermiş bir şahsiyetti. Şems, Mevlânâ'ya ayna oldu. Mevlânâ, Şems'in aynasında gördüğü kendi eşsiz güzelliğine aşık oldu. Diğer bir ifadeyle Mevlânâ, gönlündeki Allah aşkını Şems'te yaşattı. Mevlânâ'nın Şems'e karşı olan sevgisi, Allah'a olan aşkının miyarıdır (ölçüsüdür). Çünkü Mevlânâ, Şems'te Allah cemalinin parlak tecellilerini görüyordu. Mevlânâ açılmak üzere bir güldü. Şems ona bir nesim oldu. Mevlânâ bir aşk şarabı idi, Şems ona bir kadeh oldu. Mevlânâ zaten büyüktü, Şems onda bir gidiş, bir neşve değişikliği yaptı. Şems ile Mevlânâ üzerine söz tükenmez. Son söz olarak şöyle söyleyelim, Şems, Mevlânâ'yı ateşledi, ama karşısında öyle bir volkan tutuştu ki, alevleri içinde kendi de yandı.`,
+  },
+  {
+    id: 14,
+    text: "Şems-i Tebrîzi Hazretleri'nin Konya'dan Ayrılışı",
+    page: `Şems ile buluşan Mevlânâ, artık vaktini Şems'in sohbetine hasretmiş, Şems'in nurlarına gömülüp gitmiş, bambaşka bir aleme girmişi. Şems'in cazibesinde yana yana dönüyor, ilahi aşkla kendinden geçercesine Sema ediyordu. Bu iki ilahi dostun sohbetlerindeki mukaddes sırrı idrakten aciz olanlar, ileri geri konuşmaya başladılar. Neticede Şems, incindi ve Mevlânâ'nın yalvarmalarına rağmen, Konya'dan Şam'a gitti (14 Mart, 1246 Perşembe).`,
+  },
+  {
+    id: 15,
+    text: "Hazret-i Şems'in Konya'ya Dönüşü",
+    page: `Şems'in ayrıldığında derin bir ızdıraba düşen Mevlânâ, manzum olarak yazdığı güzel bir mektubu, Sultan Veled'in başkanlığındaki kafileyle Şam'a, Şems'e gönderdi. Sultan Veled, kafilesiyle Şam'a vardı, Şems'i buldu ve babasının davet mektubunu, hediyelerle birlikte, saygıyla Şems'e sundu. Şems, "Muhammedi tavırlı ve ahlaklı Mevlânâ'nın arzusu kafidir. Onun sözünden ve işaretinden nasıl çıkabilir." diyerek, Mevlânâ'nın davetine icabet etti ve 1247 'de, Sultan Veled'in kafilesiyle, Konya'ya döndü.`,
+  },
+  {
+    id: 16,
+    text: "Hazret-i Şems'in Kayboluşu",
+    page: `Şems'in Konya'ya geri gelmesine herkes sevindi. Mevlânâ da hasretin sıkıntılarından kurtuldu. Artık Şems'in şerefine ziyafetler verildi, Sema meclisleri tertip edildi. Fakat huzurla, muhabbetle, dostluk içinde geçen günler pek çok sürmedi, dedikodular ve can sıkısı durumlar yeniden başladı. Şems, o bahtsız dedikoducu topluluğun yine kinle dolduğunu, gönüllerinden sevginin uçup gittiğini, akıllarının nefislerine esir olduğunu anladı ve kendisini ortadan kaldırmaya uğraştıklarını bildi, Sultan Veled'e dedi ki: "Gördün ya azgınlıkta yine birleştiler. Doğru yolu göstermekte, bilginlikte eşi olmayan Mevlânâ'nın huzurundan beni ayırmak, uzaklaştırma, sonra da sevinmek istiyorlar. Bu sefer öylesine bir gideceğim ki, hiç kimse benim nerede olduğumu bilmeyecek. Aramaktan herkes acze düşecek, kimse benden bir nişan bile bulamayacak. Böylece bir çok yıllar geçecek de yine kimse izimin tozunu bile göremeyecek." İşte Sultan Veled'e böyle yakınan Şems, 1247-1248 tarihinde Konya'dan ansızın gidip kayboldu. Şems'in kayboluşundan sonra Mevlânâ, herkesten onun haberini soruyordu. Kim onun hakkında aslı esası olmayan bir haber bile verse ve Şems'i falan yerde gördüm dese, bu müjde için sarığını ve hırkasını vererek şükranelerde bulunuyordu. Bir gün bir adam, Şems'i Şam'da gördüm diye haber verdi. Mevlânâ buna, tarif edilemeyecek şekilde sevindi ve o adama, üstünde nesi varsa bağışladı. Dostlarından birisi, bu adamın verdiği haber yalandır, o Şems'i görmemiştir, dediğinde Mevlânâ şu cevabı vermiştir. "Evet, onun verdiği bu yalan haber içinde üstümde neyim varsa verdim. Eğer, doğru haber verseydi, canımı verirdim."`,
+  },
+  {
+    id: 17,
+    text: "Hazret-i Mevlânâ'nın, Şems-i Tebrîzi Hazretleri'ni Aramak İçin Şam'a Gidişi",
+    page: `Mevlânâ, Şems'i çok aradı. Onun ayrılığıyla, gönülleri yakan, sızlatan, nice şiirler söyledi. Onu aramak için iki kere Şam'a gitti. Yine Şems'i bulamadı. Bu son iki seyahatin tarihleri kesin olarak bilinmemekle beraber, büyük bir ihtimalle 1248-1250 yılları arasında olduğu söylenebilir. Sultan Veled'in ifadesiyle Mevlânâ, Şam'da suret bakımından Tebrizli Şems'i bulamadı ama, mana yönünden onu, kendisinde buldu. Ay gibi kendi varlığında beliren Şems'i, kendinde gördü ve dedi ki: "Beden bakımından ondan ayrıyım ama, bedensiz ve cansız ikimiz de bir nuruz. Ey arayan kişi! İster onu gör, ister beni. Ben O'yum O da ben."`,
+  },
+  {
+    id: 18,
+    text: "Mesnevi'nin Yazılışı",
+    page: `Eflâki, Mesnevi'nin yazılıp tamamlanmasını anlattığı bahiste diyor ki: "Mevlânâ Hazretleri, asil kişilerin sultanı Çelebi Hüsameddin'in cazibesi ile heyecanlar içerisinde Sema ederken, hamamda otururken, ayakta, sükunet ve hareket halinde daima Mesnevi'yi söylemeye devam etti. Bazen öyle olurdu ki, akşamdan başlayarak gün ağarıncaya kadar birbiri arkasından söyler, yazdırırdı. Çelebi Hüsameddin de bunu sür'atle yazar ve yazdıktan sonra hepsini yüksek sesle Mevlânâ'ya okurdu. Cilt tamamlanınca Çelebi Hüsameddin, beyitleri yeniden gözden geçirerek gereken düzeltmeleri yapıp tekrar okurdu." Bu şekilde dikkatlice 1259-1261 yılları arasında yazılmaya başlanılan Mesnevi, 1264-1268 yılları arasında sona erdi.`,
+  },
+  {
+    id: 19,
+    text: "Hazret-i Mevlânâ'nın Baki Aleme Göçüşü",
+    page: `Mevlânâ, Çelebi Hüsameddin ile tam on beş sene güzel demler, hoş safalar sürdü. Bu müddet zarfından bahtsızların fitne ve hücumundan uzak, huzur ve sürur içinde yaşadı. Dostları onun cemalinin nuruna pervane olmuşlardı. Mevlânâ, artık son anlarını yaşadığını, özlediği ebedi cemal alemine kavuşacağını anlamıştı. Ansızın hastalanıp yatağa düştü. Mevlânâ'nın hastalık haberi Konya'da yayıldığı zaman ahali, şifalar dilemeye, gönlünü, duasını almaya geliyorlardı. Şeyh Sadreddin (? - 1274) de talebeleriyle birlikte Mevlânâ'ya geçmiş olsun demeye geldi ve çok üzüldüğünü beyan edip, "Allah yakın zamanda şifalar versin. Hastalık ahirette derecenizin yükselmesine sebeptir. Siz alemin canısınız, inşaallah yakın zamanda tam bir sıhhate kavuşursunuz" diye temennide bulundu. Bunun üzerine Mevlânâ: "Bundan sonra Allah sizlere şifa versin. Aşıkın maşukuna kavuşmasını ve nurun nura ulaşmasını istemiyor musun?" dedi. Şeyh Sadreddin, yanındakilerle birlikte ağlayarak kalkıp gitti. Mevlânâ, dostlarına ve aile efradına, bu dünyadan göçeceğine üzülmemelerini söylüyordu, fakat onlar, benden de olsa, bu ayrılığı kabullenemiyorlar, ağlayıp inliyorlardı. Mevlânâ'nın hanımı, Mevlânâ'ya hitaben; "Ey alemin nuru, ey ademin canı! Bizi bırakıp nereye gideceksin?" diyerek ağlıyor ve ilave ediyordu. "Hudavendigar Hazretlerinin dünyayı hakikat ve manalarla doldurması için üç yüz veya dört yüz yıllık ömrünün olması lazımdı." Mevlânâ cevaben, "Niçin? Niçin? Biz ne Firavun ve ne de Nemrud'uz, bizim toprak alemiyle ne işimiz var, bize bu toprak aleminde huzur ve karar nasıl olur? Ben insanlara faydam dokunsun diye dünya zindanında kılmışım, yoksa hapishane nerede ben nerede? Kimin malını çalmışım? Yakında Allah'ın sevgili dostunun, Hazret-i Muhammed'in yanına döneceğimiz umulur" dedi.`,
+  },
+  {
+    id: 20,
+    text: "Hazret-i Mevlânâ'nın Vasiyeti",
+    page: `"Ben size, gizli ve aleni, Allah'dan korkmanızı, az yemenizi, az uyumanızı, az söylemenizi, günahlardan çekinmenizi, oruç tutmaya ve namaz kılmaya devam etmenizi, daima şehvetten kaçınmanızı, halkın eziyet ve cefasına dayanmanızı avam ve sefihlerle düşüp kalkmaktan uzak bulunmanızı, kerem sahibi olan salih kimselerle beraber olmanızı vasiyet ederim. İnsanların hayırlısı, insanlara faydası dokunandır. Sözün hayırlısı da az ve öz olanıdır. Hamd, yalnız tek olan Allah'a mahsustur. Tevhid ehline selam olsun." İrfan ve sevgi güneşi Mevlânâ, 5 Cemaziye'l-ahir, 672 (17 Aralık 1273) Pazar günü gurup vakti, bütün parlaklığı ile, bütün güzellikleriyle gülerek ebediyet aleminin asumanına doğdu. Mevleviler, o geceye Şeb-i Arus derler.`,
+  },
+  {
+    id: 21,
+    text: "Hazret-i Mevlânâ'nın Cenaze Merasimi ve Cenaze Namazı",
+    page: `Müslüman olan, müslüman olmayan, küçük büyük ne kadar Konyalı varsa hepsi, Mevlânâ'nın cenaze merasimine katıldı. Müslümanlar, müslüman olmayanları sopa ve kılışla savmaya çalışarak onlar: "Bu merasimin sizinle ne ilgisi vardır? Bu din sultanı Mevlânâ bizimdir, bizim imamımızdır" diyorlardı. Onlar da şu cevabı veriyorlardı. "Biz Musa'nın ve bütün peygamberlerin hakikatini onun sözlerinden anlayıp öğrendik. Kendi kitaplarımızda okuduğumuz olgun peygamberlerin huy ve hareketlerini onda gördük. Sizler nasıl onun muhibbi ve müridi iseniz, biz de onun muhibbiyiz. Mevlânâ Hazretleri'nin zatı, insanlar üzerinde parlayan ve onlara iyilikte, cömertlikte bulunan hakikatler güneşidir. Güneşi bütün dünya sever. Bütün evler onun nuruyla aydınlanır. Mevlânâ ekmek gibidir. Hiç kimse ekmeğe ihtiyaç duymamazlık edemez. Ekmekten kaçan hiçbir aç gördünüz mü?" Mevlânâ'nın vasiyeti üzerine Şeyh Sadreddin, Mevlânâ'nın namazını kıldırmak üzere niyetlendiğinde dayanamayıp baygınlık geçirdi. Bunun üzerine namaza Kadı Siraceddin imamlık etti.`,
+  },
+  {
+    id: 22,
+    text: "Hazret-i Mevlânâ'ya Yeşil Kubbe",
+    page: `Mevlânâ'ya Yeşil Kubbe denilen türbe, Sultan Veled ile Alameddin Kayser'in gayreti ve Emir Pervane'nin eşi (Sultan II. Gıyaseddin Keyhüsrev'in kızı) Gürcü Hatun'un yardımıyla Çelebi Hüsameddin zamanında yapıldı. Türbenin mimarı Tebrizli Bedreddin'dir. Selimoğlu Abdülvahid adlı bir sanatkar da Mevlânâ'nın kabri üzerine, Selçuklu oymacılığının şaheseri olarak kabul edilen, büyük bir ceviz sanduka yaptırmıştır. Bu sanduka bu gün, Sultan'ül-Ulema Bahaeddîn Veled'in kabri üzerindedir.`,
+  },
+  {
+    id: 23,
+    text: "Hazret-i Mevlânâ'nın Ölüme ve Mezara Bakışı",
+    page: `"Ölüm günümde tabutum yürüyüp gitmeye başladı mı, bende bu cihanın gamı var, dünyadan ayrıldığıma tasalanıyorum sanma; bu çeşit şüpheye düşme, bana ağlama, yazık yazık deme. Şeytanın tuzağına düşersem işte hayıflanmanın sırası o zamandır. Cenazemi görünce ayrılık ayrılık deme. O vakit benim buluşma ve görüşme zamanımdır. Beni kabre indirip bırakınca, sakın elveda elveda deme; zira mezar cennetler topluluğunun perdesidir. Batmayı gördün ya, doğmayı da seyret. Güneşe ve aya batmadan ne ziyan geliyor ki? Sana batmak görünür, ama o, doğmaktır. Mezar hapis gibi görünür, ama o, canın kurtuluşudur. Hangi tohum yere ekildi de bitmedi? Ne diye insan tohumunda şüpheye düşüyorsun? Hangi kova kuyuya salındı da dolu dolu çıkmadı? Can Yusuf'u ne diye kuyuda feryad etsin?Bu tarafta ağzını yumdun mu o tarafta aç. Zira senin hayuhuyun, mekansızlık aleminin fezasındadır."`,
+  },
+  {
+    id: 24,
+    text: "Şeyh Selahaddin Hazretleri’nin Ebedi Aleme Göçüşü",
+    page: `Mevlâna ile Şeyh Selahaddin, on yıl birbiriyle adeta mest olarak görüşüp sohbet ettiler, ayrılık mahmurluğunu tatmadan, visal aleminde safalar sürdüler. Nihayet Şeyh Selahaddin hastalandı ve ebedi alemde göçtü (1259).`,
+  },
+];
