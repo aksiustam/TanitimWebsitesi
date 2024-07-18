@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Card = ({ src }) => (
-  <span className={`${styles.card}  rounded-2xl`}>
-    <Link href={src.href}>
+  <span className={`${styles.card} rounded-2xl`}>
+    <Link href={src.href} className="flex-1">
       <Image
         src={src.src}
         alt="Navbar"

@@ -36,6 +36,7 @@ const items = [
     href: "/tr/semaceremony",
     name: "Sema Ceremony",
   },
+
   {
     id: 5,
     src: img5,
@@ -52,7 +53,6 @@ const items = [
 import gsap from "gsap";
 
 import {
-  FaInfoCircle,
   FaPhoneSquareAlt,
   FaMapMarkerAlt,
   FaYoutube,
@@ -180,7 +180,6 @@ const Header = () => {
     );
   };
 
-  const datenow = new Date();
   const handlePhoneClick = () => {
     if (typeof window !== "undefined") {
       window.location.href = `tel:05324266713`;
@@ -198,15 +197,11 @@ const Header = () => {
     <div>
       <div className="hidden lg:block">
         <Dock>
-          {items.map((src) =>
-            src ? (
-              <DockCard key={src.id}>
-                <Card src={src} />
-              </DockCard>
-            ) : (
-              <DockDivider key={src.id} />
-            )
-          )}
+          {items.map((src) => (
+            <DockCard key={src.id}>
+              <Card src={src} />
+            </DockCard>
+          ))}
         </Dock>
       </div>
       <div className="block lg:hidden">

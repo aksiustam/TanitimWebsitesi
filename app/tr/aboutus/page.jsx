@@ -130,18 +130,16 @@ const page = () => {
                   <div className="text-white text-4xl">20+</div>
                 </div>
 
-                <div className=" font-semibold text-nowrap">
-                  Years of Experince
-                </div>
+                <div className=" font-semibold text-nowrap">Yıllık Deneyim</div>
               </div>
               <div className="flex flex-col items-center space-y-4">
                 <div className="flex space-x-4">
                   <FaPeopleGroup size={42} color="white" />
-                  <div className="text-white text-4xl">9000+</div>
+                  <div className="text-white text-4xl">14000+</div>
                 </div>
 
                 <div className=" font-semibold text-nowrap">
-                  More Than People Visited
+                  Fazla Kişi Ziyaret Etti
                 </div>
               </div>
             </div>
