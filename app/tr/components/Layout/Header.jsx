@@ -1,55 +1,13 @@
 "use client";
 
-import { Card } from "./Card";
-import { Dock } from "./Dock";
-import { DockCard } from "./DockCard";
-import { DockDivider } from "./DockDivider";
-import img1 from "@/public/h1.png";
-import img2 from "@/public/h2.png";
-import img3 from "@/public/h3.png";
-import img4 from "@/public/h4.png";
-import img5 from "@/public/h5.png";
-import img6 from "@/public/h6.png";
+import img1 from "@/public/t1.png";
+import img2 from "@/public/t2.png";
+import img3 from "@/public/t3.png";
+import img4 from "@/public/t4.png";
+import img5 from "@/public/t5.png";
+import img6 from "@/public/t6.png";
 import { useState } from "react";
-const items = [
-  {
-    id: 1,
-    src: img1,
-    href: "/tr",
-    name: "Sema",
-  },
-  {
-    id: 2,
-    src: img2,
-    href: "/tr/galery",
-    name: "Galery",
-  },
-  {
-    id: 3,
-    src: img3,
-    href: "/tr/hz-mevlana",
-    name: "Hz. Mevlana",
-  },
-  {
-    id: 4,
-    src: img4,
-    href: "/tr/semaceremony",
-    name: "Sema Ceremony",
-  },
 
-  {
-    id: 5,
-    src: img5,
-    href: "/tr/aboutus",
-    name: "About Us",
-  },
-  {
-    id: 6,
-    src: img6,
-    href: "/tr/contact",
-    name: "Contact",
-  },
-];
 import gsap from "gsap";
 
 import {
@@ -61,6 +19,7 @@ import {
 import { HiDotsVertical } from "react-icons/hi";
 import Image from "next/image";
 import Link from "next/link";
+import HeaderDock from "./HeaderDock";
 
 const Header = () => {
   const [check1, setCheck1] = useState(false);
@@ -196,13 +155,7 @@ const Header = () => {
   return (
     <div>
       <div className="hidden lg:block">
-        <Dock>
-          {items.map((src) => (
-            <DockCard key={src.id}>
-              <Card src={src} />
-            </DockCard>
-          ))}
-        </Dock>
+        <HeaderDock />
       </div>
       <div className="block lg:hidden">
         <div
@@ -247,7 +200,7 @@ const Header = () => {
           id="box6"
         >
           <div className="w-full h-full mr-2">
-            <Link href={"/tr/galery"}>
+            <Link href={"/tr/galeri"}>
               <Image
                 src={img2}
                 alt="Menu-1"
@@ -281,7 +234,7 @@ const Header = () => {
           id="box8"
         >
           <div className="w-full h-full mr-2">
-            <Link href={"/tr/semaceremony"}>
+            <Link href={"/tr/semaseremoni"}>
               <Image
                 src={img4}
                 alt="Menu-1"
@@ -298,7 +251,7 @@ const Header = () => {
           id="box9"
         >
           <div className="w-full h-full mr-2">
-            <Link href={"/tr/aboutus"}>
+            <Link href={"/tr/hakkimizda"}>
               <Image
                 src={img5}
                 alt="Menu-1"
@@ -315,7 +268,7 @@ const Header = () => {
           id="box10"
         >
           <div className="w-full h-full mr-2">
-            <Link href={"/tr/contact"}>
+            <Link href={"/tr/iletisim"}>
               <Image
                 src={img6}
                 alt="Menu-1"

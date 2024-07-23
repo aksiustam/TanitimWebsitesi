@@ -1,0 +1,12 @@
+
+.slick-track
+{
+    height: inherit !important;
+    display: flex !important;
+}
+.slick-list
+{
+    height: inherit !important;
+}
+.slick-slide > div { height: 100%; }
+.slick-slide > div > div { height: 100%; display: flex !important; }

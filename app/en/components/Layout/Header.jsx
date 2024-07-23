@@ -1,9 +1,5 @@
 "use client";
 
-import { Card } from "./Card";
-import { Dock } from "./Dock";
-import { DockCard } from "./DockCard";
-import { DockDivider } from "./DockDivider";
 import img1 from "@/public/h1.png";
 import img2 from "@/public/h2.png";
 import img3 from "@/public/h3.png";
@@ -11,48 +7,10 @@ import img4 from "@/public/h4.png";
 import img5 from "@/public/h5.png";
 import img6 from "@/public/h6.png";
 import { useState } from "react";
-const items = [
-  {
-    id: 1,
-    src: img1,
-    href: "/en",
-    name: "Sema",
-  },
-  {
-    id: 2,
-    src: img2,
-    href: "/en/galery",
-    name: "Galery",
-  },
-  {
-    id: 3,
-    src: img3,
-    href: "/en/hz-mevlana",
-    name: "Hz. Mevlana",
-  },
-  {
-    id: 4,
-    src: img4,
-    href: "/en/semaceremony",
-    name: "Sema Ceremony",
-  },
-  {
-    id: 5,
-    src: img5,
-    href: "/en/aboutus",
-    name: "About Us",
-  },
-  {
-    id: 6,
-    src: img6,
-    href: "/en/contact",
-    name: "Contact",
-  },
-];
+
 import gsap from "gsap";
 
 import {
-  FaInfoCircle,
   FaPhoneSquareAlt,
   FaMapMarkerAlt,
   FaYoutube,
@@ -61,6 +19,8 @@ import {
 import { HiDotsVertical } from "react-icons/hi";
 import Image from "next/image";
 import Link from "next/link";
+
+import HeaderDock from "./HeaderDock";
 
 const Header = () => {
   const [check1, setCheck1] = useState(false);
@@ -180,7 +140,6 @@ const Header = () => {
     );
   };
 
-  const datenow = new Date();
   const handlePhoneClick = () => {
     if (typeof window !== "undefined") {
       window.location.href = `tel:05324266713`;
@@ -195,19 +154,9 @@ const Header = () => {
     }
   };
   return (
-    <div>
+    <>
       <div className="hidden lg:block">
-        <Dock>
-          {items.map((src) =>
-            src ? (
-              <DockCard key={src.id}>
-                <Card src={src} />
-              </DockCard>
-            ) : (
-              <DockDivider key={src.id} />
-            )
-          )}
-        </Dock>
+        <HeaderDock />
       </div>
       <div className="block lg:hidden">
         <div
@@ -429,7 +378,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

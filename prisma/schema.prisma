@@ -63,7 +63,10 @@ model Account {
 }
 
 model Ayarlar {
-  id       Int   @id
-  banner   Json?
-  settings Json?
+  id        Int   @id
+  banner    Json?
+  banneren  Json?
+  mbanner   Json?
+  mbanneren Json?
+  settings  Json?
 }

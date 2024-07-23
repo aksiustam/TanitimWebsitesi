@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import { animated, useSpringValue } from "@react-spring/web";
 import { clamp } from "@react-spring/shared";
@@ -10,7 +11,7 @@ import styles from "./styles.module.scss";
 
 export const DOCK_ZOOM_LIMIT = [-100, 50];
 
-export const Dock = ({ children }) => {
+const Dock = ({ children }) => {
   const [hovered, setHovered] = React.useState(false);
   const [width, setWidth] = React.useState(0);
   const isZooming = React.useRef(false);
@@ -59,3 +60,4 @@ export const Dock = ({ children }) => {
     </DockContext.Provider>
   );
 };
+export default Dock;

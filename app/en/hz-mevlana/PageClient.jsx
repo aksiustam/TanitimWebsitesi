@@ -30,6 +30,7 @@ const PageClient = () => {
 
             <div className="w-full h-full">
               <div className="flex items-center justify-center mb-4">
+                <h1 class="sr-only">Mawlānā, Mevlânâ Rumi</h1>
                 <Image
                   src={"/button.svg"}
                   alt="Button"
@@ -95,9 +96,9 @@ const PageClient = () => {
                   loading="eager"
                 />
                 <div className="absolute inset-0 flex items-center justify-start max-w-64 ">
-                  <div className="text-black rounded-full pl-4 py-1 text-[12px] font-semibold capitalize">
+                  <h2 className="text-black rounded-full pl-4 py-1 text-[12px] font-semibold capitalize">
                     {item.text}
-                  </div>
+                  </h2>
                 </div>
               </div>
             ))}
@@ -105,7 +106,7 @@ const PageClient = () => {
         </div>
       </div>
       <div className="w-full h-full mt-12 text-white px-5 lg:px-0">
-        <div className="text-sm font-semibold mb-6">
+        <h3 className="text-sm font-semibold mb-6">
           <span className="text-lg font-bold border-b" id={"1"}>
             {index?.text}
           </span>
@@ -114,7 +115,7 @@ const PageClient = () => {
           <br />
           <br />
           {index?.page2}
-        </div>
+        </h3>
       </div>
     </>
   );

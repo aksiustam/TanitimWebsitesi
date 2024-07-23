@@ -1,3 +1,4 @@
+"use client";
 import { useSpring } from "@react-spring/web";
 import { useEffect, useMemo } from "react";
 

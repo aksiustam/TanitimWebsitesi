@@ -1,163 +1,125 @@
 "use client";
 import React, { useState } from "react";
-import { useForm } from "react-hook-form";
-import Swal from "sweetalert2";
 
-import { CldUploadWidget } from "next-cloudinary";
-import setBanner from "@/app/actions/video/setBanner";
 import Link from "next/link";
 import Image from "next/image";
 
-const AdminPageClient = () => {
-  const { handleSubmit } = useForm();
-  const [video, setVideo] = useState(null);
-  const [videom, setVideoM] = useState(null);
+import BannerTR from "./BannerTR";
+import BannerEN from "./BannerEN";
+import BannerMEN from "./BannerMEN";
+import BannerMTR from "./BannerMTR";
 
-  const onSubmit = async () => {
-    const formData = {
-      imageid: video === null ? null : video.public_id,
-      imageurl: video === null ? null : video.secure_url,
-      mimageid: videom === null ? null : videom.public_id,
-      mimageurl: videom === null ? null : videom.secure_url,
-    };
-    const res = await setBanner(formData);
-    if (res === true) {
-      await Swal.fire({
-        icon: "success",
-        title: "Başarıyla Güncellendi",
-        showConfirmButton: false,
-        timer: 1500,
-      });
-      location.reload();
-    } else {
-      Swal.fire({
-        icon: "error",
-        title: JSON.stringify(res),
-      });
-    }
-  };
+BannerMEN;
+const AdminPageClient = (props) => {
+  const { ayarlar } = props;
+
+  const [checklang, setCheckLang] = useState(true);
+  const [checkmlang, setCheckMLang] = useState(true);
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-slate-50">
-      <div className="w-96 h-96 flex items-center justify-center">
-        <Link href={"/admin/galery"}>
-          <Image
-            src={"/galeryicon.png"}
-            alt="Galery"
-            width={1200}
-            height={1200}
-            className="w-60 h-60 object-contain"
-            loading="eager"
-          />
-          <div className="w-full text-xl text-center font-extrabold mt-2">
-            GALERİ
+    <div className="w-full h-screen overflow-y-scroll flex items-center justify-center bg-slate-50">
+      <div className="w-full h-screen grid grid-cols-12">
+        <div className="col-span-5">
+          <div className="flex flex-col items-center justify-center p-4 mt-8 bg-white rounded-xl">
+            <div className="text-red-600 underline mb-2">
+              Resim Yüklendikten sonra Lütfen Kaydet e Basınız...
+            </div>
+            <div className={`py-1 px-3 text-xl rounded-full font-extrabold`}>
+              Bilgisayar Ayarları
+            </div>
+            <div className="grid grid-cols-2 space-x-6 mb-2 mt-2">
+              <div
+                className={`text-xl font-bold cursor-pointer ${
+                  checklang === true ? "underline" : ""
+                }`}
+                onClick={() => setCheckLang(true)}
+              >
+                Türkçe
+              </div>
+              <div
+                className={`text-xl font-bold cursor-pointer ${
+                  checklang === false ? "underline" : ""
+                }`}
+                onClick={() => setCheckLang(false)}
+              >
+                İngilizce
+              </div>
+            </div>
+
+            {checklang === true ? (
+              <BannerTR ayarlar={ayarlar} />
+            ) : (
+              <BannerEN ayarlar={ayarlar} />
+            )}
           </div>
-        </Link>
-      </div>
-      <div className="flex flex-col items-center justify-center p-6 bg-white rounded-xl">
-        <div className="text-xl font-bold mb-4 text-shadow-lg">
-          RumiCeremony ADMIN PANELİ
         </div>
-
-        <form className="w-full h-full" onSubmit={handleSubmit(onSubmit)}>
-          <div className="text-red-600 underline mb-4">
-            Resim ve Video Yüklendikten sonra Lütfen Kaydet e Basınız...
-          </div>
-          <div className="gird grid-cols-2">
-            <div className="w-full h-8 mb-12">
-              <label
-                className="input-label text-qgray text-sm block mb-2.5"
-                htmlFor="email"
-              >
-                Anasayfa Videosu Yükle*
-              </label>
-
-              <CldUploadWidget
-                signatureEndpoint="/api/sign-cloudinary-params"
-                onSuccess={(result) => {
-                  setVideo(result?.info);
-                }}
-                uploadPreset="rumi_video"
-                options={{
-                  maxFiles: 1,
-                }}
-              >
-                {({ open }) => {
-                  function handleOnClick() {
-                    setVideo(null);
-                    open();
-                  }
-
-                  return (
-                    <button
-                      type="button"
-                      className="blue-btn h-6"
-                      onClick={handleOnClick}
-                    >
-                      Anasayfa Videosu Yükle
-                    </button>
-                  );
-                }}
-              </CldUploadWidget>
+        <div className="col-span-2">
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <div className="text-xl font-bold mb-4 text-shadow-lg text-center px-4 mt-8">
+              RumiCeremony ADMIN PANELİ
             </div>
-            <div className="w-full h-8 mb-12">
-              <label
-                className="input-label text-qgray text-sm block mb-2.5"
-                htmlFor="email"
-              >
-                Anasayfa Mobil Videosu Yükle*
-              </label>
-
-              <CldUploadWidget
-                signatureEndpoint="/api/sign-cloudinary-params"
-                onSuccess={(result) => {
-                  setVideoM(result?.info);
-                }}
-                uploadPreset="rumi_video"
-                options={{
-                  maxFiles: 1,
-                }}
-              >
-                {({ open }) => {
-                  function handleOnClick() {
-                    setVideoM(null);
-                    open();
-                  }
-
-                  return (
-                    <button
-                      type="button"
-                      className="blue-btn h-6"
-                      onClick={handleOnClick}
-                    >
-                      Anasayfa Mobil Videosu Yükle
-                    </button>
-                  );
-                }}
-              </CldUploadWidget>
+            <Link href={"/admin/galery"} className="no-underline text-black">
+              <Image
+                src={"/galeryicon.png"}
+                alt="Galery"
+                width={1200}
+                height={1200}
+                className="w-44 h-44 object-contain"
+                loading="eager"
+              />
+              <div className="w-full text-xl text-center font-extrabold mt-2">
+                GALERİ
+              </div>
+            </Link>
+            <Link href={"/admin/video"} className="no-underline text-black">
+              <Image
+                src={"/videosicon.png"}
+                alt="Videos"
+                width={1200}
+                height={1200}
+                className="w-44 h-44 object-contain"
+                loading="eager"
+              />
+              <div className="w-full text-xl text-center font-extrabold mt-2">
+                VİDEO
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="col-span-5">
+          <div className="flex flex-col items-center justify-center p-4 mt-8 bg-white rounded-xl">
+            <div className="text-red-600 underline mb-2">
+              Resim Yüklendikten sonra Lütfen Kaydet e Basınız...
             </div>
+            <div className={`py-1 px-3 text-xl rounded-full font-extrabold`}>
+              Mobil Ayarları
+            </div>
+            <div className="grid grid-cols-2 space-x-6 mb-2 mt-2">
+              <div
+                className={`text-xl font-bold cursor-pointer ${
+                  checkmlang === true ? "underline" : ""
+                }`}
+                onClick={() => setCheckMLang(true)}
+              >
+                Türkçe
+              </div>
+              <div
+                className={`text-xl font-bold cursor-pointer ${
+                  checkmlang === false ? "underline" : ""
+                }`}
+                onClick={() => setCheckMLang(false)}
+              >
+                İngilizce
+              </div>
+            </div>
+
+            {checkmlang === true ? (
+              <BannerMTR ayarlar={ayarlar} />
+            ) : (
+              <BannerMEN ayarlar={ayarlar} />
+            )}
           </div>
-          <div className="w-full h-8">
-            <button type="submit" className="yellow-btn w-full h-8">
-              Kaydet
-            </button>
-          </div>
-        </form>
-      </div>
-      <div className="w-96 h-96 flex items-center justify-center">
-        <Link href={"/admin/video"}>
-          <Image
-            src={"/videosicon.png"}
-            alt="Videos"
-            width={1200}
-            height={1200}
-            className="w-60 h-60 object-contain"
-            loading="eager"
-          />
-          <div className="w-full text-xl text-center font-extrabold mt-2">
-            VİDEO
-          </div>
-        </Link>
+        </div>
       </div>
     </div>
   );

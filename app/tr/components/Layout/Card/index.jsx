@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,6 +12,7 @@ export const Card = ({ src }) => (
         height={600}
         className={styles.card__blur}
         loading="eager"
+        priority={true}
       />
       <Image
         src={src.src}
@@ -22,6 +21,7 @@ export const Card = ({ src }) => (
         height={600}
         className={styles.card__img}
         loading="eager"
+        priority={true}
       />
     </Link>
   </span>

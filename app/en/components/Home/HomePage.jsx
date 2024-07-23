@@ -3,13 +3,86 @@ import Link from "next/link";
 import Header from "../Layout/Header";
 import { FaYoutubeSquare, FaInstagramSquare } from "react-icons/fa";
 import Image from "next/image";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./style.css";
 const HomePage = (props) => {
   const { settings } = props;
+  const ayarlar = settings?.banneren;
+  const mayarlar = settings?.mbanneren;
 
+  const checkTrue = () => {
+    const bannerChecks = [
+      ayarlar?.banner1?.check,
+      ayarlar?.banner2?.check,
+      ayarlar?.banner3?.check,
+      ayarlar?.banner4?.check,
+      ayarlar?.banner5?.check,
+      ayarlar?.banner6?.check,
+      ayarlar?.banner7?.check,
+      ayarlar?.banner8?.check,
+    ];
+    const trueCount = bannerChecks.filter(Boolean).length;
+    return !(trueCount === 1);
+  };
+  let sliderSettings = {
+    autoplay: false,
+    arrows: false,
+    dots: false,
+    infinite: checkTrue(),
+    pauseOnHover: false,
+    speed: 2000,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
+  const checkMTrue = () => {
+    const bannerChecks = [
+      ayarlar?.banner1?.check,
+      ayarlar?.banner2?.check,
+      ayarlar?.banner3?.check,
+      ayarlar?.banner4?.check,
+      ayarlar?.banner5?.check,
+      ayarlar?.banner6?.check,
+      ayarlar?.banner7?.check,
+      ayarlar?.banner8?.check,
+    ];
+    const trueCount = bannerChecks.filter(Boolean).length;
+    return !(trueCount === 1);
+  };
+  let msliderSettings = {
+    autoplay: true,
+    arrows: false,
+    dots: false,
+    infinite: checkMTrue(),
+    pauseOnHover: false,
+    speed: 2000,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
   return (
     <>
       <section className="w-screen h-screen relative">
+        <div className="absolute top-12 left-12 z-50 flex flex-col space-y-4">
+          <Image
+            src={"/logorumi.png"}
+            alt="Rumi Logo"
+            width={1200}
+            height={1200}
+            className="w-60 h-20 object-contain "
+          />
+          <Image
+            src={"/mevlana2.png"}
+            alt="Mevlana"
+            width={1200}
+            height={1200}
+            className="w-72 h-72 object-contain -ml-4"
+          />
+        </div>
         <div className="bg-[#964B00] text-slate-200 absolute top-1/4 right-0 py-2 pr-1 pl-3 rounded-l-xl z-10">
           <div className="flex flex-row space-x-2 items-center justify-center">
             <Link href={"/tr"}>
@@ -36,36 +109,125 @@ const HomePage = (props) => {
             </a>
           </div>
         </div>
-        <div className=" absolute top-1/2">
-          <div className="flex flex-col items-start justify-center">
-            <div className="text-slate-200 bg-[#964B00] text-sm md:text-2xl font-bold text-nowrap mb-1 py-2 pl-1 pr-4 rounded-r-xl">
-              Every Day at 21:00
-            </div>
-            <div className="text-slate-200 bg-[#0a5c0a] text-sm md:text-2xl font-bold text-nowrap py-2 pl-1 pr-4 rounded-r-xl">
-              Mevlevi Sema Ceremony
+        <div className=" absolute left-4 top-[53%] z-10">
+          <div className="flex flex-col space-y-6 items-start justify-center">
+            <Image
+              src={"/everyday.png"}
+              alt="ButtonStil"
+              width={1000}
+              height={1000}
+              className="w-80 h-full object-contain"
+            />
+          </div>
+        </div>
+        <div className="w-full h-full flex items-start justify-center">
+          <div className="w-[1250px] h-full relative hidden lg:block">
+            <div className="w-full h-full flex flex-col space-y-4 items-start justify-start">
+              <div className="w-full h-[630px]">
+                <Image
+                  src={ayarlar?.banner1?.image?.imageurl}
+                  alt="Rumi Ceremony Banner1"
+                  width={2000}
+                  height={2000}
+                  className="-z-30 w-full h-[630px] object-fill"
+                />
+              </div>
+              <div className="w-full flex items-center justify-center relative">
+                <div className="absolute w-full h-full z-10">
+                  <div className="w-full h-full flex items-center justify-center">
+                    <div className="text-white text-3xl ">
+                      Lovers don’t finally meet somewhere, they’re in each
+                      other all along…
+                    </div>
+                  </div>
+                </div>
+                <Image
+                  src={"/frame3.png"}
+                  alt="Frame"
+                  width={1200}
+                  height={1200}
+                  className="w-full h-40 object-fill"
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div className="w-full h-full hidden md:block">
-          <video
-            autoPlay
-            muted
-            loop
-            style={{ height: "100%", width: "100%", objectFit: "cover" }}
-          >
-            <source src={settings?.banner?.imageurl} type="video/mp4" />
-          </video>
-        </div>
-        <div className="w-full h-full block md:hidden">
-          <video
-            autoPlay
-            muted
-            loop
-            style={{ height: "100%", width: "100%", objectFit: "cover" }}
-          >
-            <source src={settings?.banner?.mimageurl} type="video/mp4" />
-          </video>
-        </div>
+        {/* <div className="w-full h-full relative block lg:hidden">
+          <Slider {...msliderSettings} className="w-full h-full">
+            {mayarlar?.banner1?.check && (
+              <Image
+                src={mayarlar?.banner1?.image?.imageurl}
+                alt="Rumi Ceremony Banner1"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner2?.check && (
+              <Image
+                src={mayarlar?.banner2?.image?.imageurl}
+                alt="Rumi Ceremony Banner2"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner3?.check && (
+              <Image
+                src={mayarlar?.banner3?.image?.imageurl}
+                alt="Rumi Ceremony Banner3"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner4?.check && (
+              <Image
+                src={mayarlar?.banner4?.image?.imageurl}
+                alt="Rumi Ceremony Banner4"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner5?.check && (
+              <Image
+                src={mayarlar?.banner5?.image?.imageurl}
+                alt="Rumi Ceremony Banner5"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner6?.check && (
+              <Image
+                src={mayarlar?.banner6?.image?.imageurl}
+                alt="Rumi Ceremony Banner6"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner7?.check && (
+              <Image
+                src={mayarlar?.banner7?.image?.imageurl}
+                alt="Rumi Ceremony Banner7"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+            {mayarlar?.banner8?.check && (
+              <Image
+                src={mayarlar?.banner8?.image?.imageurl}
+                alt="Rumi Ceremony Banner8"
+                width={2000}
+                height={2000}
+                className="-z-30 w-screen h-screen object-cover object-center"
+              />
+            )}
+          </Slider>
+        </div> */}
 
         <Header />
       </section>

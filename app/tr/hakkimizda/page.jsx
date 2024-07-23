@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FaInstagramSquare, FaYoutubeSquare } from "react-icons/fa";
 import Header from "../components/Layout/Header";
-import { TfiCup } from "react-icons/tfi";
+
 import { FaPeopleGroup } from "react-icons/fa6";
 
 const page = () => {
@@ -34,11 +34,11 @@ const page = () => {
       </div>
       <div className="flex-1 flex items-center justify-center mb-24">
         <div className="w-full flex flex-col px-8 md:px-40 py-12 text-white">
-          <div className=" text-4xl font-extrabold text-shadow-lg mb-6 text-center">
-            About Us
-          </div>
+          <h1 className=" text-4xl font-extrabold text-shadow-lg mb-6 text-center">
+            İrfan Medeniyeti Araştırma Merkezi (İRFA)
+          </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-8 lg:mb-16">
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-center mb-6 lg:mb-0">
               <Image
                 src={"/aboutus2.jpg"}
                 alt="About Us-2"
@@ -49,29 +49,26 @@ const page = () => {
               />
             </div>
             <div className="h-full flex flex-col items-start justify-center">
-              <div className="text-xl font-bold text-left mt-4 lg:mt-0 mb-4">
-                İrfan Medeniyeti Araştırma Merkezi(İRFA)
-              </div>
-              <div className="font-semibold xl:pr-20 mb-6 lg:mb-3">
+              <h2 className="text-[15px] font-semibold xl:pr-20 mb-6 lg:mb-3">
                 İrfan Medeniyeti Araştırma Merkezi (İRFA) bünyesindeki “Mevlevî
                 Âyinleri Topluluğu” semâ’ âyini icra etmektedir.
-              </div>
-              <div className="font-semibold xl:pr-20 mb-6 lg:mb-3">
+              </h2>
+              <p className="text-[15px] font-semibold xl:pr-20 mb-6 lg:mb-3">
                 Semâ’; lügatte duymak, işitmek anlamına gelir. Mevlevî
                 literatüründe semâ’ ritm ve mûsikî eşliğinde yapılan, sağdan
                 sola, kalbin etrafında çark atıp dönerek icrâ edilen bir nev’î
                 nâfile ibâdettir. Mevlevîliğin sembol zikri olan semâ’da maksat
                 ve niyet rûhen yükselmek, Allah’a(cc) giden yolda mesâfe
                 almaktır.
-              </div>
-              <div className="font-semibold xl:pr-20 mb-6 lg:mb-3">
+              </p>
+              <p className="text-[15px] font-semibold xl:pr-20 mb-6 lg:mb-3">
                 Semâ’; Hazret-i Mevlânâ zamanında belli bir nizâma bağlı
                 kalmaksızın dînî ve tasavvûfî bir coşkunluk vesîlesiyle icrâ
                 edilmiştir. Semâ’ı ibâdet hâline getiren Hazret-i Pîr’in, Şems-i
                 Tebrizî ile buluştuktan sonra semâ&apos; etmeye başladığı
                 nakledilir.
-              </div>
-              <div className="font-semibold xl:pr-20 mb-6 lg:mb-3">
+              </p>
+              <p className="text-[15px] font-semibold xl:pr-20 mb-6 lg:mb-3">
                 İrfan Medeniyeti Araştırma Merkezi (İRFA) içerisinde bulunan
                 semahane, Türkiye’nin ve dünyanın çeşitli yerlerindeki
                 Mevlevihanelerden esinlenerek inşa edilmiş neo-klasik mimari
@@ -80,36 +77,31 @@ const page = () => {
                 periyodik olarak Acemaşiran, Acembuselik, Hüzzam, Suzidilara,
                 Hisarbuselik gibi çeşitli makamlarda bestelenmiş Mevlevî
                 âyinleri icra edilmektedir.
-              </div>
+              </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-8 mb-16 lg:mb-20 mt-6 lg:mt-0">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:space-x-8 mb-4 lg:mb-8 mt-6 lg:mt-0">
             <div className="h-full flex flex-col items-center justify-center font-semibold xl:pl-20 pb-8 lg:pb-0">
-              <div className="font-semibold xl:pr-12 mb-6 lg:mb-3">
+              <p className="text-[15px] font-semibold xl:pr-12 mb-6 lg:mb-3">
                 Konya Büyükşehir Belediyesi ile İnsan ve İrfan Vakfı
                 işbirliğiyle hizmet veren İrfan Medeniyeti Araştırma Merkezi
                 (İRFA), medeniyetimizden bizlere miras kalan güzelliklerin
                 korunması ve aslına uygun şekilde ihya edilmesiyle cemiyete
                 faydalı bireyler yetiştirmeyi hedefleyen bir kuruluştur.
-              </div>
-              <div className="font-semibold xl:pr-12 mb-6 lg:mb-3">
+              </p>
+              <p className="text-[15px] font-semibold xl:pr-12 mb-6 lg:mb-3">
                 İrfan Medeniyeti Araştırma Merkezi(İRFA) Geleneksel Türk İslam
                 sanatına uygun şekilde bir külliye olarak inşa edilmiştir. İrfan
                 Medeniyeti Araştırma Merkezi (İRFA) içerisinde Panoramik Konya
                 Müzesi “KONYANÜMA”, Semâhâne, konferans salonu, atölye ve
                 derslikler bulunmaktadır.
-              </div>
-              <div className="font-semibold xl:pr-12 mb-6 lg:mb-3">
+              </p>
+              <p className="text-[15px] font-semibold xl:pr-12 mb-6 lg:mb-3">
                 Haftanın her günü aktif olarak kullanılan İrfan Medeniyeti
                 Araştırma Merkezi (İRFA) bünyesinde semâ’ talimi, tekke musikisi
                 meşki, enstrüman imalatı vb. eğitimler verilerek, atölyeler
                 tertip edildiği gibi panel ve seminerler düzenlenmektedir.
-              </div>
-              <div className="font-semibold xl:pr-12 mb-6 lg:mb-3">
-                Mevlânâ Müzesi karşısında, Aslanlı Kışla Caddesi üzerinde
-                bulunan İrfan Medeniyeti Araştırma Merkezi (İRFA); yerli ve
-                yabancı misafirleri ağırlamaktadır.
-              </div>
+              </p>
             </div>
             <div className="w-full h-full flex items-center justify-center">
               <Image
@@ -122,16 +114,15 @@ const page = () => {
               />
             </div>
           </div>
+          <div>
+            <h3 className="text-[15px] font-semibold mb-12 lg:mb-16 xl:pl-20 xl:pr-12 ">
+              Mevlânâ Müzesi karşısında, Aslanlı Kışla Caddesi üzerinde bulunan
+              İrfan Medeniyeti Araştırma Merkezi (İRFA); yerli ve yabancı
+              misafirleri ağırlamaktadır.
+            </h3>
+          </div>
           <div className="w-full flex items-center justify-center">
-            <div className="grid grid-cols-2 w-[500px] ">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="flex space-x-4">
-                  <TfiCup size={42} color="white" />
-                  <div className="text-white text-4xl">20+</div>
-                </div>
-
-                <div className=" font-semibold text-nowrap">Yıllık Deneyim</div>
-              </div>
+            <div className="grid grid-cols-1 w-[500px] ">
               <div className="flex flex-col items-center space-y-4">
                 <div className="flex space-x-4">
                   <FaPeopleGroup size={42} color="white" />
@@ -139,7 +130,7 @@ const page = () => {
                 </div>
 
                 <div className=" font-semibold text-nowrap">
-                  Fazla Kişi Ziyaret Etti
+                  Fazla Ziyaretçi!
                 </div>
               </div>
             </div>

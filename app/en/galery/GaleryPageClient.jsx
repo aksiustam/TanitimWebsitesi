@@ -18,14 +18,15 @@ const GaleryPageClient = (props) => {
   return (
     <>
       <div className="w-full mt-12 mb-6 grid grid-cols-2">
+        <h1 class="sr-only">IRFA GALERY AND VİDEOS</h1>
         <div
-          className="text-white text-center text-4xl font-extrabold text-shadow-lg ml-8 underline cursor-pointer"
+          className="text-white text-center text-2xl lg:text-4xl font-extrabold text-shadow-lg ml-8 underline cursor-pointer"
           onClick={() => setCheck(true)}
         >
           GALERY
         </div>
         <div
-          className="text-white text-center text-4xl font-extrabold text-shadow-lg ml-8 underline cursor-pointer"
+          className="text-white text-center text-2xl lg:text-4xl font-extrabold text-shadow-lg ml-8 underline cursor-pointer"
           onClick={() => setCheck(false)}
         >
           VIDEOS

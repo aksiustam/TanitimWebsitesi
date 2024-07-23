@@ -1,10 +1,11 @@
 import React from "react";
 import AdminPageClient from "./AdminPageClient";
-
-const page = () => {
+import getSettings from "@/app/actions/getSettings";
+const page = async () => {
+  const ayarlar = await getSettings();
   return (
     <div>
-      <AdminPageClient />
+      <AdminPageClient ayarlar={ayarlar} />
     </div>
   );
 };

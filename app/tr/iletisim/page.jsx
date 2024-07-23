@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaInstagramSquare, FaYoutubeSquare } from "react-icons/fa";
+import {
+  FaInstagramSquare,
+  FaProjectDiagram,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 import Header from "../components/Layout/Header";
 import { SiGooglemaps } from "react-icons/si";
 import { FaPhone } from "react-icons/fa6";
@@ -36,9 +40,9 @@ const page = () => {
       </div>
       <div className="flex-1">
         <div className="w-full flex flex-col px-12 py-12 text-white">
-          <div className=" text-4xl font-extrabold text-shadow-lg ml-8 mb-6">
-            İletişim
-          </div>
+          <h1 className=" text-4xl font-extrabold text-shadow-lg ml-8 mb-6">
+            İLETİŞİM
+          </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-4">
             <div className="w-full ml-8 ">
               <div className="flex items-center justify-start gap-3 mb-3">
@@ -46,17 +50,17 @@ const page = () => {
                   <SiGooglemaps size={28} color="white" />
                 </div>
                 <div className="font-semibold text-sm">
-                  Adres : Aslanlı Kışla Cd. No: 6/1 Karatay/KONYA
+                  Adres : İRFA Kültür Merkezi Aslanlı Kışla Cd. No: 6/1
+                  Karatay/KONYA
                 </div>
               </div>
               <div className="flex items-center justify-start gap-3 mb-5">
                 <div className="w-12 h-12 bg-slate-50/50 rounded-full p-2 flex items-center justify-center">
                   <FaPhone size={24} color="white" />
                 </div>
-                <div>
-                  <div className="font-semibold text-sm mb-2">
-                    Telefon : +90 532 426 67 13
-                  </div>
+
+                <div className="font-semibold text-sm mb-2">
+                  Rezervasyon ve Bilgi İçin : +90 554 564 64 01
                 </div>
               </div>
 
@@ -65,7 +69,31 @@ const page = () => {
                   <MdEmail size={24} color="white" />
                 </div>
                 <div className="font-semibold text-sm ">
-                  E-Mail : c.gocer@sufiturizm.com.tr
+                  E-Mail : info@rumiceremony.com
+                </div>
+              </div>
+              <div className="flex flex-col items-start justify-start gap-3 mb-5">
+                <div className="flex items-center justify-start space-x-3">
+                  <div className="w-12 h-12 bg-slate-50/50 rounded-full p-2 flex items-center justify-center">
+                    <FaProjectDiagram size={24} color="white" />
+                  </div>
+                  <div className="font-semibold text-sm ">Organizatörler</div>
+                </div>
+                <div className="flex space-x-4">
+                  <Image
+                    src={"/sufiturizm.png"}
+                    alt="Sufi Turizm"
+                    width={700}
+                    height={700}
+                    className="rounded-full w-32 h-32 object-contain"
+                  />
+                  <Image
+                    src={"/farmatur.png"}
+                    alt="Farmatur"
+                    width={700}
+                    height={700}
+                    className="rounded-full w-32 h-32 object-contain"
+                  />
                 </div>
               </div>
             </div>

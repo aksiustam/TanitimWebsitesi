@@ -32,11 +32,11 @@ const page = () => {
       </div>
       <div className="flex-1">
         <div className="w-full flex flex-col items-center justify-center py-6 px-6 lg:px-32 lg:py-12  text-white">
-          <div className=" text-4xl font-extrabold text-shadow-lg mb-6">
-            SEMA CEREMONY
-          </div>
+          <h1 className=" text-4xl font-extrabold text-shadow-lg mb-6">
+            MEVLEVI SEMA CEREMONY
+          </h1>
           <div className="w-full h-full">
-            <div className="text-lg font-semibold mb-6">
+            <h2 className="text-lg font-semibold mb-6">
               The Mevlevi Sema Ceremony is a Sufi ceremony that symbolizes
               stages on the path to accessing God and contains religious
               elements and themes with detailed rules and characteristics. While
@@ -46,7 +46,7 @@ const page = () => {
               Veled and Ulu Arif Çelebi. These rules were developed until the
               time of Pir Adil Çelebi, when they assumed the final form we have
               today.
-            </div>
+            </h2>
             <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 lg:space-x-8 px-12">
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -59,7 +59,7 @@ const page = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <div className=" font-semibold mb-6">
+                <h3 className=" font-semibold mb-6">
                   The ceremony consists of the noble eulogy to the Prophet
                   Mohammed, flute solo, prelude, the Circling of Veled and four
                   segments (selam), which form an integral whole and contain
@@ -73,8 +73,8 @@ const page = () => {
                   (flute), kettledrum and oud. The works of Rumi written in
                   Persian are the basic source of the compositions performed by
                   the musicians and singers during the ceremony.
-                </div>
-                <div className=" font-semibold mb-6">
+                </h3>
+                <h3 className=" font-semibold mb-6">
                   The ceremony begins with the recitation of the Noble Eulogy
                   (naat-ı şerif), which praises the Prophet Mohammed. This is
                   followed by the ney solo. When the ney solo ends, the whirling
@@ -86,11 +86,11 @@ const page = () => {
                   begins after the Circling of Veled, the whirling dervishes
                   slowly remove their cloaks, thus freeing themselves from
                   worldly affairs.
-                </div>
+                </h3>
               </div>
             </div>
 
-            <div className="font-semibold mb-6">
+            <h3 className="font-semibold mb-6">
               While the whirling dervishes are spinning in the Mevlevi Sema as a
               symbol of the heavenly realm, the chief dervish moves among them,
               making sure they maintain proper distance between them. The person
@@ -116,10 +116,10 @@ const page = () => {
               left hand down, which symbolizes blessing from God received with
               the right hand while turning away from everyone else and
               distributing these blessings with the left hand.
-            </div>
+            </h3>
             <div className="mb-6 flex flex-col-reverse lg:grid lg:grid-cols-2 lg:space-x-8 px-12">
               <div className="flex flex-col items-center justify-center">
-                <div className="font-semibold mb-6">
+                <h3 className="font-semibold mb-6">
                   The whirling dervishes who perform the ceremony must undergo
                   rigorous spiritual and physical training before they are ready
                   for the service. All of the postures and demeanors in the area
@@ -134,8 +134,8 @@ const page = () => {
                   knowledge. The spiritual journey includes many different
                   stages, such as loyalty, love, service, the remembrance of God
                   and solitude.
-                </div>
-                <div className="font-semibold mb-6">
+                </h3>
+                <h4 className="font-semibold mb-6">
                   The Mevlevi Sema Ceremonies that describe divine love in
                   artistic terms with choreography and complex musical structure
                   are performed at least twice a week throughout the summer,
@@ -147,7 +147,7 @@ const page = () => {
                   Ceremonies held on the Night of Reunion (December 17), which
                   is the anniversary of Rumi’s death and is recognized as the
                   night on which the servant met his Lord.
-                </div>
+                </h4>
               </div>
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -161,7 +161,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="font-semibold mb-8">
+            <h4 className="font-semibold mb-8">
               Mevlevi culture emerged in the 13th century, was developed and
               changed over time and became an important part of Turkish history
               and culture. The way to preserve and keep it alive, especially the
@@ -172,14 +172,14 @@ const page = () => {
               action plan has been drawn up that includes not only the Ministry
               of Culture and Tourism but many civil society organizations as
               well.
-            </div>
-            <div className="font-semibold mb-6">
+            </h4>
+            <h5 className="font-semibold mb-6">
               As part of the UNESCO Anniversary Celebrations List, UNESCO
               proclaimed 2007 to be the “800th Anniversary of the Birth of
               Mawlana Jalal-ud-Din Balkhi-Rumi.”. A number of events related to
               Mevlana and Mevlevi culture were organized both in Turkey and
               abroad, and the Mevlevi Sema Ceremony was performed.
-            </div>
+            </h5>
             <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 lg:space-x-8  lg:pb-0 px-12 ">
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -192,7 +192,7 @@ const page = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <div className="font-semibold">
+                <p className="font-semibold">
                   To ensure that the Mevlevi Sema Ceremony is performed without
                   compromising its essential character, the Ministry of Culture
                   and Tourism issued in 2008 the Circular Regarding Mevlevi
@@ -213,11 +213,11 @@ const page = () => {
                   keeping with the mystical atmosphere and essence of the
                   ceremonies, and converted into cultural centers where whirling
                   dervishes are trained.
-                </div>
+                </p>
               </div>
             </div>
 
-            <div className="font-semibold mb-6">
+            <p className="font-semibold mb-6">
               The costume worn by the dervishes during the sema ceremonies is
               extremely important. Making the felt hats called sikke worn by the
               Mevlevi dervishes is not only difficult, but it is also a
@@ -226,15 +226,15 @@ const page = () => {
               currently in the Mevlana Museum were made by him. Girgiç was
               proclaimed a “Living Human Treasure” by the Ministry of Culture
               and Tourism in 2010 for his works.
-            </div>
-            <div className="font-semibold mb-6">
+            </p>
+            <p className="font-semibold mb-6">
               The Mevlevi Sema Ceremony, which was proclaimed a Masterpiece in
               2005 within the framework of the UNESCO Masterpieces of the Oral
               and Intangible Cultural Heritage of Humanity Program, was
               registered on UNESCO’s Representative List of the Intangible
               Cultural Heritage of Humanity in 2008 on behalf of our country and
               thereby introduced to the world.{" "}
-            </div>
+            </p>
           </div>
         </div>
       </div>

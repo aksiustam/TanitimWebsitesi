@@ -32,11 +32,11 @@ const page = () => {
       </div>
       <div className="flex-1">
         <div className="w-full flex flex-col items-center justify-center py-6 px-6 lg:px-32 lg:py-12  text-white">
-          <div className=" text-4xl font-extrabold text-shadow-lg mb-6 ">
+          <h1 className=" text-4xl font-extrabold text-shadow-lg mb-6 ">
             MEVLEVİ SEMA TÖRENİ
-          </div>
+          </h1>
           <div className="w-full h-full">
-            <div className="text-lg font-semibold mb-6">
+            <h2 className="text-lg font-semibold mb-6">
               Mevlevî Semâ Töreni, Allah’a ulaşma yolunun derecelerini sembolize
               eden, içinde dini öğe ve temalar barındıran ve bu haliyle
               ayrıntılı kural ve niteliklere sahip tasavvufî bir törendir.
@@ -46,7 +46,7 @@ const page = () => {
               disiplinli bir şekilde icra edilmiştir. Bu kurallar, Pir Adil
               Çelebi zamanına kadar geliştirilmiş ve son şeklini alarak günümüze
               kadar gelmiştir.
-            </div>
+            </h2>
             <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 lg:space-x-8 px-12">
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -59,7 +59,7 @@ const page = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <div className=" font-semibold mb-6">
+                <h3 className="font-semibold mb-6">
                   Tören, birbiriyle bütünlük içinde farklı tasavvufî anlamlar
                   içeren naat, ney taksimi, peşrev, Devr-i Veledî ve dört selâm
                   bölümlerinden oluşmaktadır. Semâ Töreni, Mevlevîlik kültürünün
@@ -72,8 +72,8 @@ const page = () => {
                   enstrümanlar, koroya eşlik eder. Mevlâna’nın Farsça yazılmış
                   eserleri, tören süresince mutrib heyeti (ses ve saz topluluğu)
                   tarafından icra edilen bestelerin temel kaynağıdır.
-                </div>
-                <div className=" font-semibold mb-6">
+                </h3>
+                <h3 className=" font-semibold mb-6">
                   Törene, Hz. Muhammed’i öven naat-ı şerifin okunmasıyla
                   başlanır. Naat-ı şerifin okunmasından sonra ney taksimine
                   geçilir. Ney taksiminin bitiminde semâzenler, semâzenbaşının
@@ -82,21 +82,21 @@ const page = () => {
                   Hırkası kabri, sikkesi mezar taşı olan semâzen otururken ölmüş
                   sayılır. Devr-i Veledî’den sonra başlayan ayinde semâzenler
                   usulünce hırkalarını çıkarır, dünyevi işlerinden soyunurlar.
-                </div>
+                </h3>
               </div>
             </div>
 
-            <div className="font-semibold mb-6">
+            <h4 className="font-semibold mb-6">
               Semâ törenlerinde selam bölümü dört kısımdan oluşmaktadır: 1.
               Selâm, insanın kulluğunu idrak etmesini; 2. Selâm, Allah’ın
               kudreti karşısında hayranlık duyulmasını; 3. Selâm, kudret
               karşısında duyulan hayranlığın aşka dönüşmesini; 4. Selâm, insanın
               kulluğa dönüşünü anlatır. Tören, okunan Kur’an-ı Kerim ve dualarla
               bitirilir.
-            </div>
+            </h4>
             <div className="mb-6 flex flex-col-reverse lg:grid lg:grid-cols-2 lg:space-x-8 px-12">
               <div className="flex flex-col items-center justify-center">
-                <div className="font-semibold mb-6">
+                <p className="font-semibold mb-6">
                   Gökler âleminin bir sembolü olarak Mevlevî Semâ’sında
                   semâzenler dönerken, semâzenbaşı aralarında gezinir ve
                   semâzenlerin birbirlerine olan mesafesinin korunmasını sağlar.
@@ -105,8 +105,8 @@ const page = () => {
                   yer yuvarlak olmasından dolayı dünyaya, Post-nişîn güneşe,
                   semâzenbaşı aya ve semâzenler de gezegenlere benzetilerek,
                   semânın güneş sistemini sembolize ettiği varsayılır.
-                </div>
-                <div className="font-semibold mb-6">
+                </p>
+                <p className="font-semibold mb-6">
                   İcra edilmesi özen ve dikkat gerektiren bu tören, başından
                   sonuna kadar birçok aşamada mistik anlamda semboller taşır.
                   Semâ esnasında dönmek tüm mekân ve yönlerde Allah’ı seyretmeyi
@@ -117,7 +117,7 @@ const page = () => {
                   aşağı doğru kollar açık bir hale gelmesi, sağ elle Tanrı’dan
                   feyiz alıp O’ndan başkasına yüz çevirmek ve sol elle bu feyzin
                   dağıtılması anlamına gelmektedir.
-                </div>
+                </p>
               </div>
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -131,7 +131,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="font-semibold mb-8">
+            <p className="font-semibold mb-8">
               Töreni icra eden semâzenler, manevî ve bedenî uzun bir eğitim
               süreci sonrasında ayin için hazır hale gelirler. Semâ yapılan
               alandaki tüm hal ve tavırlar edep ve erkâna riayet edilerek
@@ -143,8 +143,8 @@ const page = () => {
               kâmil yoluna ulaştırır. Maneviyat yolu; bağlılık, muhabbet,
               hizmet, Allah’ın hatırlanması ve inziva gibi pek çok aşamayı
               içermektedir.
-            </div>
-            <div className="font-semibold mb-6">
+            </p>
+            <p className="font-semibold mb-6">
               Koreografisi ve karmaşık müzik yapısıyla hem sanatsal hem de ilahi
               aşkı anlatan Mevlevî Semâ Törenleri, yaz ayları boyunca özellikle
               Konya ve İstanbul’da haftada en az iki kez gerçekleştirilmektedir.
@@ -155,7 +155,7 @@ const page = () => {
               kavuşma gecesi olarak kabul edilen Şeb-i Arus’da (17 Aralık)
               gerçekleştirilen Mevlevî Semâ Törenleri’ne yurtiçi ve yurtdışından
               büyük bir izleyici kitlesi katılmaktadır.
-            </div>
+            </p>
             <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 lg:space-x-8  lg:pb-0 px-12 ">
               <div className="flex-1 mb-6 lg:mb-0">
                 <Image
@@ -168,7 +168,7 @@ const page = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <div className="font-semibold mb-6">
+                <p className="font-semibold mb-6">
                   13’üncü yüzyılda ortaya çıkmış, zaman içinde gelişip
                   şekillenerek Türk tarihinin ve kültürünün önemli bir parçası
                   haline gelmiş olan Mevlevîliğe bağlı kültürün ve özellikle
@@ -179,19 +179,19 @@ const page = () => {
                   amacıyla Kültür ve Turizm Bakanlığı’nın yanı sıra pek çok
                   sivil toplum kuruluşunun yer aldığı koruma eylem planı
                   oluşturulmuştur.
-                </div>
-                <div className="font-semibold">
+                </p>
+                <p className="font-semibold">
                   UNESCO Yıldönümü Kutlamaları Listesi kapsamında 2007 yılı
                   Mevlâna’nın doğumunun 800’üncü yılı sebebiyle UNESCO
                   tarafından “Mevlâna Celaleddin-i Rumî’nin 800. Doğum
                   Yıldönümü” olarak ilân edilmiş olup, Türkiye’de ve dünyada yıl
                   boyunca Mevlâna ve Mevlevîlikle ilgili pek çok etkinlik
                   düzenlenmiş ve Mevlevî Semâ Töreni icra edilmiştir.
-                </div>
+                </p>
               </div>
             </div>
 
-            <div className="font-semibold mb-6">
+            <p className="font-semibold mb-6">
               Mevlevî Semâ Töreni’nin özünü kaybetmeden gerçekleştirilmesini
               sağlamak amacıyla Kültür ve Turizm Bakanlığı tarafından 2008
               yılında Mevlevîlik-Semâ Törenleri Hakkında Genelge yayımlanmıştır.
@@ -204,16 +204,16 @@ const page = () => {
               tanıtımın yanı sıra “aşkın ve tasavvufi özelliklere sahip bir
               uygulama” yaptıklarının bilinci içinde ciddiyetle hareket
               etmelidirler.
-            </div>
-            <div className="font-semibold mb-6">
+            </p>
+            <p className="font-semibold mb-6">
               2010 yılında İstanbul Avrupa Kültür Başkenti programlarında
               yapılan pek çok sanatsal etkinlikler arasında Mevlevî Semâ
               Törenleri büyük ilgi görmüştür. Bu kapsamda törenlerin mistik
               havasına ve özüne uygun olarak Galata ve Yenikapı Mevlevîhaneleri
               restore edilmiş ve semâzenlerin eğitim aldığı kültür merkezleri
               haline getirilmişlerdir.
-            </div>
-            <div className="font-semibold mb-6">
+            </p>
+            <p className="font-semibold mb-6">
               Semâ törenlerinde semâzenlerin giydiği kostüm büyük önem
               taşımaktadır. Mevlevî dervişlerinin giydikleri ve sikke adı
               verilen keçe başlıklarının üretilmesi zorlu ve bir o kadar emek
@@ -223,14 +223,14 @@ const page = () => {
               imalatıdır. Girgiç, çalışmalarından dolayı 2010 yılında Kültür ve
               Turizm Bakanlığı tarafından “Yaşayan İnsan Hazinesi” olarak ilan
               edilmiştir.
-            </div>
-            <div className="font-semibold mb-6">
+            </p>
+            <h5 className="font-semibold mb-6">
               UNESCO İnsanlığın Sözlü ve Somut Olmayan Kültürel Mirası
               Başyapıtları Programı çerçevesinde 2005 yılında Başyapıt olarak
               ilan edilen “Mevlevî Semâ Töreni”, 2008 yılında UNESCO İnsanlığın
               Somut Olmayan Kültürel Mirasının Temsili Listesi’ne ülkemiz adına
               kaydettirilerek tüm dünyaya tanıtılmıştır.
-            </div>
+            </h5>
           </div>
         </div>
       </div>

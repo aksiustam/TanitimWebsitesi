@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import {
   animated,
@@ -14,7 +15,7 @@ import styles from "./styles.module.scss";
 
 const INITIAL_WIDTH = 48;
 
-export const DockCard = ({ children }) => {
+const DockCard = ({ children }) => {
   const cardRef = React.useRef(null);
   /**
    * This doesn't need to be real time, think of it as a static
@@ -133,3 +134,5 @@ export const DockCard = ({ children }) => {
     </div>
   );
 };
+
+export default DockCard;
