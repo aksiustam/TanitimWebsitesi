@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
 import "../globals.css";
 import bg from "../../public/bg.webp";
-const inter = Inter({ subsets: ["latin"] });
+import { Noto_Serif } from "next/font/google";
+
+const notoSerif = Noto_Serif({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Rumi Ceremony",
@@ -70,7 +71,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr">
       <body
-        className={inter.className}
+        className={notoSerif.className}
         style={{
           backgroundImage: `url(${bg.src})`,
           backgroundSize: "cover",

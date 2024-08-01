@@ -11,6 +11,8 @@ import getVideo from "../../actions/video/getVideo";
 const page = async () => {
   const galery = await getGalery();
   const videos = await getVideo();
+
+  const datenow = new Date();
   return (
     <div className=" w-screen h-screen overflow-y-scroll">
       <div className="bg-[#964B00] text-slate-200 absolute top-1/4 right-0 py-2 pr-1 pl-3 rounded-l-xl z-10">

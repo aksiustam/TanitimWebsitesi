@@ -224,6 +224,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="max-h-28 object-contain "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -310,6 +311,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -396,6 +398,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -482,6 +485,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -568,6 +572,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -654,6 +659,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -740,6 +746,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -826,6 +833,7 @@ const BannerTR = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>

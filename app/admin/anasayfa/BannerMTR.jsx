@@ -217,13 +217,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner1?.image?.imageurl}
                         alt="Banner-1"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -303,13 +304,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner2?.image?.imageurl}
                         alt="Banner-2"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -389,13 +391,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner3?.image?.imageurl}
                         alt="Banner-3"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -475,13 +478,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner4?.image?.imageurl}
                         alt="Banner-4"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -561,13 +565,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner5?.image?.imageurl}
                         alt="Banner-5"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -647,13 +652,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner6?.image?.imageurl}
                         alt="Banner-6"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28"
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -733,13 +739,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner7?.image?.imageurl}
                         alt="Banner-7"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28"
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -819,13 +826,14 @@ const BannerMTR = (props) => {
                         <option value={"false"}>Hayır</option>
                       </select>
                     </div>
-                    <div className="w-full">
+                    <div className="w-full pl-8">
                       <Image
                         src={bannerData?.banner8?.image?.imageurl}
                         alt="Banner-8"
                         width={1250}
                         height={1250}
-                        className="object-cover max-h-28 "
+                        className="object-cover max-w-28"
+                        loading="eager"
                       />
                     </div>
                   </div>

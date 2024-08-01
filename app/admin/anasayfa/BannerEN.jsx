@@ -225,6 +225,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -311,6 +312,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -397,6 +399,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -483,6 +486,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -569,6 +573,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -655,6 +660,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -741,6 +747,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>
@@ -827,6 +834,7 @@ const BannerEN = (props) => {
                         width={1250}
                         height={1250}
                         className="object-cover max-h-28 "
+                        loading="eager"
                       />
                     </div>
                   </div>

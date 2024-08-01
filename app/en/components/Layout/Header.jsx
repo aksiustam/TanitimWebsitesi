@@ -153,6 +153,7 @@ const Header = () => {
       window.location.href = geoUrl;
     }
   };
+  const datenow = new Date();
   return (
     <>
       <div className="hidden lg:block">
@@ -160,7 +161,7 @@ const Header = () => {
       </div>
       <div className="block lg:hidden">
         <div
-          className="absolute top-[17%] right-0 w-16 h-10 bg-red-600 rounded-l-2xl cursor-pointer z-30"
+          className="absolute top-[17%] right-0 w-16 h-10 bg-red-600 rounded-l-2xl cursor-pointer z-40"
           onClick={() => {
             if (check2 === true) {
               handleUPGSAPOff();
@@ -180,7 +181,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0 hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0 hidden opacity-0 z-30"
           id="box5"
         >
           <div className="w-full h-full mr-2">
@@ -197,7 +198,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0  hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0  hidden opacity-0 z-30"
           id="box6"
         >
           <div className="w-full h-full mr-2">
@@ -214,7 +215,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0  hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0  hidden opacity-0 z-30"
           id="box7"
         >
           <div className="w-full h-full mr-2">
@@ -231,7 +232,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0  hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0  hidden opacity-0 z-30"
           id="box8"
         >
           <div className="w-full h-full mr-2">
@@ -248,7 +249,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0  hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0  hidden opacity-0 z-30"
           id="box9"
         >
           <div className="w-full h-full mr-2">
@@ -265,7 +266,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[15%] right-0 hidden opacity-0 z-20"
+          className="absolute top-[15%] right-0 hidden opacity-0 z-30"
           id="box10"
         >
           <div className="w-full h-full mr-2">
@@ -284,7 +285,7 @@ const Header = () => {
       </div>
       <div className="block lg:hidden">
         <div
-          className="absolute top-[87%] left-0 cursor-pointer z-30"
+          className="absolute top-[87%] left-0 cursor-pointer z-40"
           onClick={() => {
             if (check1 === true) {
               handleGSAPOff();
@@ -312,7 +313,7 @@ const Header = () => {
         </div>
 
         <div
-          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-10"
+          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-30"
           id="box1"
           onClick={() => handlePhoneClick()}
         >
@@ -328,7 +329,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-10"
+          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-30"
           id="box2"
         >
           <a href="https://www.instagram.com/irfanmedeniyeti/">
@@ -345,7 +346,7 @@ const Header = () => {
           </a>
         </div>
         <div
-          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-10"
+          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-30"
           id="box3"
         >
           <a href="https://www.youtube.com/irfanmedeniyeti">
@@ -362,7 +363,7 @@ const Header = () => {
           </a>
         </div>
         <div
-          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-10"
+          className="absolute top-[85%] left-0 w-36 h-10 hidden opacity-0 bg-[#0a5c0a] rounded-r-full z-30"
           id="box4"
           onClick={() => handleHarita()}
         >
@@ -376,6 +377,17 @@ const Header = () => {
               </span>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="absolute bottom-0 pb-4 pl-4">
+        <div className="text-white font-bold text-xs">
+          © {datenow?.getFullYear()}{" "}
+          <a
+            href="https://www.aydtanitim.com/"
+            className="underline hover:text-blue-500"
+          >
+            <span>AYDTanıtım</span>
+          </a>
         </div>
       </div>
     </>

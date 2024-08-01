@@ -86,6 +86,7 @@ const page = () => {
                     width={700}
                     height={700}
                     className="rounded-full w-32 h-32 object-contain"
+                    loading="eager"
                   />
                   <Image
                     src={"/farmatur.png"}
@@ -93,6 +94,7 @@ const page = () => {
                     width={700}
                     height={700}
                     className="rounded-full w-32 h-32 object-contain"
+                    loading="eager"
                   />
                 </div>
               </div>

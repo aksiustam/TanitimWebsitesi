@@ -117,7 +117,31 @@ const GaleryClient = (props) => {
   const { startIndex, endIndex } = calculateIndexRange();
 
   const pagiData = data.slice(startIndex, endIndex);
+  const handleSuccess = (result) => {
+    setCImage((prev) => {
+      const data = prev || [];
+      return [...data, { ...result?.info }];
+    });
 
+    if (uploadQueue.length > 0) {
+      processNextImage();
+    }
+  };
+  const processNextImage = () => {
+    if (uploadQueue.length === 0) {
+      setIsUploading(false);
+      return;
+    }
+
+    const nextImage = uploadQueue.shift();
+    // İşlem yapmanız gereken yer
+    console.log("Processing:", nextImage);
+    // Resim işleme kodu buraya gelir
+
+    setUploadQueue([...uploadQueue]);
+  };
+  const [uploadQueue, setUploadQueue] = useState([]);
+  const [isUploading, setIsUploading] = useState(false);
   return (
     <>
       <div className="flex flex-col w-full h-full px-12 py-12 bg-slate-100">
@@ -149,10 +173,13 @@ const GaleryClient = (props) => {
                 });
               }}
               uploadPreset="rumi_galery"
+              multiple
             >
               {({ open }) => {
                 function handleOnClick() {
                   setCImage([]);
+                  setUploadQueue([]);
+                  setIsUploading(true);
                   open();
                 }
 

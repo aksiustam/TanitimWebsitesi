@@ -18,7 +18,7 @@ const AdminPageClient = (props) => {
 
   return (
     <div className="w-full h-screen overflow-y-scroll flex items-center justify-center bg-slate-50">
-      <div className="w-full h-screen grid grid-cols-12">
+      <div className="w-full h-screen lg:grid lg:grid-cols-12">
         <div className="col-span-5">
           <div className="flex flex-col items-center justify-center p-4 mt-8 bg-white rounded-xl">
             <div className="text-red-600 underline mb-2">
