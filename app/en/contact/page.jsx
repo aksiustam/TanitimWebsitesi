@@ -40,7 +40,7 @@ const page = () => {
             Contact Us
           </h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 mb-4">
-            <div className="w-full ml-8 ">
+            <div className="w-full  ml-8 ">
               <div className="flex items-center justify-start gap-3 mb-3">
                 <div className="w-12 h-12 bg-slate-50/50 rounded-full p-2 flex items-center justify-center">
                   <SiGooglemaps size={28} color="white" />
@@ -97,11 +97,11 @@ const page = () => {
               </div>
             </div>
 
-            <div className="w-full h-80 lg:h-96 mt-4 lg:-mt-16 lg:-ml-4 ">
+            <div className="w-full h-full mt-4 lg:-mt-16 lg:-ml-4">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.5679052674154!2d32.50875387535462!3d37.87039960664667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08516e66dc6f9%3A0x106df0cf0ce9f3b9!2zxLByZmFuIE1lZGVuaXlldGkgQXJhxZ90xLFybWEgdmUgS8O8bHTDvHIgTWVya2V6aQ!5e0!3m2!1sen!2str!4v1721297750586!5m2!1sen!2str"
                 width="100%"
-                height="100%"
+                height="150%"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
