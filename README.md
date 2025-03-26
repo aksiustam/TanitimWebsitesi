@@ -1,6 +1,10 @@
-RumiCeremony için yapmış olduğum websitesi  [rumiceremony.com](https://rumiceremony.com/en) 
+# Website for RumiCeremony
 
-Websitesinde NextJS 14 ve Özel CSS kullanılmıştır.
+## Website: [rumiceremony.com](https://rumiceremony.com)
 
-İncelemek için :  [rumiceremony.com](https://rumiceremony.com/en) 
+### Features:
+- Built using **Next.js 14** and **custom CSS**.
+- **Cloudinary** is used for image hosting and management.
 
+### Live Preview:
+[rumiceremony.com](https://rumiceremony.com)
